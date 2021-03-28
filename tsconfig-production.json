@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": true,
+        "removeComments": false,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "outDir": "dist",
+        "lib": ["es2016", "dom"],
+        "rootDir": "./src",
+        "esModuleInterop": true,
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "**/__tests__/*",
+        "**/__mocks__/*",
+        "node_modules.",
+        "dist/",
+        "example/",
+        "jest-framework-setup.ts",
+        "index.d.ts"
+    ]
+}
